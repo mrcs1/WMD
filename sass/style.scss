@@ -63,7 +63,7 @@ $mobilePortraitWidth:   300px;
 @import "type";
 
 h1, h2, h3, h4 { 
-	@include font-ultra(36px);
+	@include font-ultra(32px);
 	color: $red;
 	margin: 0 0 0 0;
 	letter-spacing: -0.03em;
@@ -167,19 +167,19 @@ nav {
 			
 			li {
 				display: inline-block;
-				padding: 0 0 0 18px;
+				padding: 0 0 0 21px;
 
 			}
 
-			li:first-child {
-				display: inline-block;
-				padding: 0;
+			// li:first-child {
+			// 	display: inline-block;
+			// 	padding: 0;
 
-			}
+			// }
 
 		}
 	@media screen and (max-width: $tabletPortraitWidth) {
-		width: 72%;
+		width: 66%;
 		line-height: 36px;
 		margin-top: 6px;
 		overflow-wrap: break-word;
@@ -408,7 +408,7 @@ footer {
 }
 
 .spacer {
-	margin-bottom: 10%;
+	margin-bottom: 5%;
 }
 
 .final {
@@ -473,7 +473,7 @@ footer {
 
 					 }
 
-						@media screen and (max-width: $tabletWidth ) {
+						@media screen and (max-width: $tabletWidth - 1) {
 						width: 100%;
 						margin: 3.33% 0;
 						height: 264px;
@@ -578,12 +578,7 @@ footer {
 	height: 80px;
 	padding: 12px 0 32px 0;
 
-		@media screen and (max-width: $tabletWidth ) {
-			height: 60px;
-			padding: 12px 0 0px 0;
-		}
-
-		@media screen and (max-width: $tabletWidth ) {
+		@media screen and (max-width: $tabletWidth - 1) {
 			height: 60px;
 			padding: 6px 0 12px 0;
 		}
@@ -593,6 +588,7 @@ footer {
 
 .bio {
 	margin-bottom: 6px;
+	margin-left: 0px !important;
 }
 
 .bio_wrapper {

@@ -31,13 +31,13 @@ include("./head.inc");
 			<h1><?php echo $page->blurb_title; ?></h1>
 		</div>
 		
-		<div class="four columns spacer">
+		<div class="ten columns spacer">
 			<h3><?php echo $page->blurb; ?></h3>
 		</div>
 
 
 	<!-- Bios -->
-	<div class="five columns offset-by-one">
+	<div class="ten columns offset-by-two">
 		<?php
 			if ($page->children) {
 			foreach($page->children() as $bio) {
