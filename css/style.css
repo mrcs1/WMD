@@ -1,0 +1,645 @@
+::selection {
+  background: #de4f35;
+  color: white;
+}
+
+::-moz-selection {
+  background: #de4f35;
+  color: white;
+}
+
+.grey {
+  color: #4a4a4a;
+}
+
+a, a:visited {
+  color: #5b5e61;
+  text-decoration: none;
+  outline: 0;
+  -webkit-transition: 0.3s ease-in-out;
+  -moz-transition: 0.3s ease-in-out;
+  -o-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+a:hover, a:focus, a:active {
+  color: #de4f35;
+}
+
+p a, p a:visited {
+  line-height: inherit;
+}
+
+a:link.red {
+  color: #de4f35;
+  -webkit-transition: 0.3s ease-in-out;
+  -moz-transition: 0.3s ease-in-out;
+  -o-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+a:hover.red {
+  color: #110503;
+}
+
+/**
+ * Just specify font-size, don't override current font.
+ */
+/**
+ * The "normal" weight font, usually weight 400
+ */
+/**
+ * The "bold" weight font, usually weight 700
+ */
+/**
+ * The "light" weight font, usually weight 200
+ */
+/**
+ * The "light" weight font, usually weight 200
+ */
+/**
+ * Helper function to normalize the line-height. Provides an easy way to
+ * handle 'auto' and unspecified lineheight values.
+ */
+/**
+ * Primary helper to get the font bits output correctly
+ */
+h1, h2, h3, h4 {
+  font-family: "Theinhardt-Thin", "Theinhardt-Thin", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 36px;
+  font-size: 2.25rem;
+  line-height: 43.2px;
+  line-height: 2.7rem;
+  font-weight: 100;
+  color: #de4f35;
+  margin: 0 0 0 0;
+}
+
+h2 {
+  color: #4a4a4a;
+}
+@media screen and (max-width: 960px) {
+  h2 {
+    font-family: "Theinhardt-Thin", "Theinhardt-Thin", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 24px;
+    font-size: 1.5rem;
+    line-height: 28.8px;
+    line-height: 1.8rem;
+    font-weight: 100;
+  }
+}
+
+h3 {
+  color: #4a4a4a;
+  font-family: "Theinhardt-Thin", "Theinhardt-Thin", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 24px;
+  font-size: 1.5rem;
+  line-height: 28.8px;
+  line-height: 1.8rem;
+  font-weight: 100;
+}
+@media screen and (max-width: 960px) {
+  h3 {
+    font-family: "Theinhardt-Light", "Theinhardt-Thin", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    font-size: 1.125rem;
+    line-height: 21.6px;
+    line-height: 1.35rem;
+    font-weight: 200;
+    color: #7d7d7d;
+  }
+}
+@media screen and (max-width: 400px) {
+  h3 {
+    font-family: "Theinhardt-Light", "Theinhardt-Thin", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    font-size: 1.125rem;
+    line-height: 21.6px;
+    line-height: 1.35rem;
+    font-weight: 200;
+  }
+}
+
+h3.light {
+  color: #979797;
+}
+
+h4 {
+  font-family: "Theinhardt-Regular", "Theinhardt-Thin", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  font-size: 1.125rem;
+  line-height: 21.6px;
+  line-height: 1.35rem;
+  font-weight: normal;
+  color: rgba(0, 0, 0, 0.9);
+}
+
+h5 {
+  font-family: "Theinhardt-Light", "Theinhardt-Thin", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 21px;
+  font-size: 1.3125rem;
+  line-height: 25.2px;
+  line-height: 1.575rem;
+  font-weight: 200;
+  color: #4a4a4a;
+  line-height: 130%;
+}
+
+h5.light {
+  font-family: "Theinhardt-Light", "Theinhardt-Thin", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 21px;
+  font-size: 1.3125rem;
+  line-height: 25.2px;
+  line-height: 1.575rem;
+  font-weight: 200;
+  color: #979797;
+  line-height: 130%;
+}
+
+.small {
+  font-family: "Theinhardt-Light", "Theinhardt-Thin", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-size: 1rem;
+  line-height: 19.2px;
+  line-height: 1.2rem;
+  font-weight: 200;
+}
+.small a, .small a:visited {
+  color: #de4f35 !important;
+}
+
+.clients p {
+  margin-bottom: 4px;
+  font-family: "Theinhardt-Light", "Theinhardt-Thin", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  font-size: 1.125rem;
+  line-height: 21.6px;
+  line-height: 1.35rem;
+  font-weight: 200;
+  color: #4a4a4a;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  color: #4a4a4a;
+  background: white;
+  text-align: left;
+  font-family: "Theinhardt-Light", "Theinhardt-Thin", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-size: 1rem;
+  line-height: 19.2px;
+  line-height: 1.2rem;
+  font-weight: 200;
+  line-height: 21px;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.header {
+  margin: 48px auto;
+  max-width: 1440px;
+}
+
+nav {
+  float: right;
+  margin: 0;
+  padding: 0;
+  font-family: "Theinhardt-Light", "Theinhardt-Thin", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-size: 1rem;
+  line-height: 19.2px;
+  line-height: 1.2rem;
+  font-weight: 200;
+  color: #4a4a4a;
+  line-height: 44px;
+}
+nav ul {
+  padding: 0;
+  float: right;
+}
+nav ul li {
+  display: inline-block;
+  padding: 0 0 0 24px;
+}
+nav ul li:first-child {
+  display: inline-block;
+/*  padding: 0;*/
+}
+@media screen and (max-width: 480px) {
+  nav {
+    width: 53%;
+    line-height: 36px;
+    margin-top: 6px;
+    overflow-wrap: break-word;
+  }
+}
+
+.logo {
+  float: left;
+}
+
+.info {
+  margin-bottom: 32px;
+}
+
+.title {
+  margin-bottom: 8px;
+}
+.title a:link {
+  color: #de4f35;
+}
+.title a:hover {
+  color: #110503;
+}
+.title a:visited {
+  color: #de4f35;
+}
+
+.lazy {
+  display: none;
+}
+
+#editpage {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background: #de4f35;
+  padding: 10px;
+  z-index: 9999;
+  color: white !important;
+}
+
+.meta_link {
+  margin-bottom: 0;
+}
+.meta_link a:link {
+  color: #de4f35;
+}
+.meta_link a:hover {
+  color: #110503;
+}
+.meta_link a:visited {
+  color: #de4f35;
+}
+
+.gallery {
+  margin: 32px 1% 24px 1%;
+}
+.gallery img {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 2%;
+}
+
+.tile {
+  display: inline-block !important;
+  position: relative;
+  vertical-align: bottom;
+  margin-bottom: .5%;
+}
+.tile img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 2%;
+  overflow: hidden;
+  display: inline;
+}
+
+@media screen and (max-width: 1023px) {
+  .home1 {
+    width: 100% !important;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .home2 {
+    width: 47% !important;
+    float: right !important;
+    margin-bottom: 24px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .home2 {
+    width: auto !important;
+    float: right !important;
+    margin-bottom: 24px;
+  }
+}
+
+.home2 h1 {
+  margin-top: 108%;
+}
+@media screen and (max-width: 1492px) {
+  .home2 h1 {
+    margin-top: 102%;
+  }
+}
+@media screen and (max-width: 1366px -52) {
+  .home2 h1 {
+    margin-top: 100%;
+  }
+}
+@media screen and (max-width: 1314px) {
+  .home2 h1 {
+    margin-top: 62%;
+  }
+}
+@media screen and (max-width: 1266px) {
+  .home2 h1 {
+    margin-top: 62%;
+  }
+}
+@media screen and (max-width: 1266px) {
+  .home2 h1 {
+    margin-top: 62%;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .home2 h1 {
+    margin-top: 62%;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .home2 h1 {
+    margin-top: 0%;
+  }
+}
+
+.related {
+  margin: 6px 6px 12px 1px !important;
+  width: 100% !important;
+}
+.related ul {
+  padding: 0;
+  overflow: hidden;
+}
+.related ul li {
+  display: inline;
+  margin: 12px;
+  width: 22.94%;
+  position: relative;
+  float: left;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  margin-bottom: 0px;
+  line-height: 0;
+}
+@media screen and (max-width: 1439px) {
+  .related ul li {
+    width: 22.65%;
+  }
+}
+@media screen and (max-width: 1366px) {
+  .related ul li {
+    width: 22.5%;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .related ul li {
+    width: 47.65%;
+    padding: 9px 9px 9px 9px;
+    margin: 0;
+  }
+}
+@media screen and (max-width: 768px) {
+  .related ul li {
+    width: 47.1%;
+    padding: 6px 6px 2px 6px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .related ul li {
+    width: 46%;
+    padding: 6px 6px 2px 6px;
+  }
+}
+.related ul li img {
+  width: 100%;
+  height: auto;
+}
+
+.share a, .share a:visited {
+  color: #de4f35;
+  margin-left: 12px;
+}
+
+footer {
+  padding-top: 96px !important;
+  padding-bottom: 48px !important;
+}
+
+.right {
+  text-align: right;
+  float: right;
+}
+
+.spacer {
+  margin-bottom: 10%;
+}
+
+.final {
+  margin-bottom: 2%;
+}
+
+.ruler {
+  margin-bottom: 48px;
+  border-bottom: 1px dotted #cacaca;
+}
+
+.contact {
+  margin-bottom: 12px;
+}
+@media screen and (max-width: 1024px) {
+  .contact h5 {
+    font-size: 100%;
+  }
+}
+
+#map {
+  max-width: 1440px;
+  height: 640px;
+  margin-top: 44px;
+  margin-bottom: 44px;
+}
+@media screen and (max-width: 768px) {
+  #map {
+    height: 320px;
+  }
+}
+
+.thumbs {
+  display: block;
+  vertical-align: middle;
+  position: relative;
+  height: 400px;
+  overflow: hidden;
+}
+@media screen and (max-width: 1492px) {
+  .thumbs {
+    height: 380px;
+  }
+}
+@media screen and (max-width: 1314px) {
+  .thumbs {
+    height: 288px;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .thumbs {
+    height: 208px;
+  }
+}
+@media screen and (max-width: 479px) {
+  .thumbs {
+    width: 100%;
+    margin: 3.33% 0;
+    height: 208px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .thumbs {
+    width: 100%;
+    margin: 3.33% 0;
+    height: 264px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .thumbs {
+    width: 100%;
+    margin: 3.33% 0;
+    height: 188px;
+  }
+}
+.thumbs img {
+  vertical-align: middle;
+  width: 100%;
+}
+
+.project_thumb_left {
+  width: 48%;
+  display: block;
+  position: relative;
+  float: left;
+  padding: 0 12px 36px 0;
+}
+@media screen and (max-width: 768px) {
+  .project_thumb_left {
+    width: 100%;
+  }
+}
+.project_thumb_left a {
+  overflow: hidden;
+  display: block;
+  width: 50%;
+  background: #de4f35;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.project_thumb_right {
+  width: 48%;
+  display: block;
+  position: relative;
+  float: left;
+  padding: 0 0 24px 12px;
+}
+@media screen and (max-width: 768px) {
+  .project_thumb_right {
+    width: 100%;
+    padding: 0 0 24px 0;
+  }
+}
+.project_thumb_right a {
+  overflow: hidden;
+  display: block;
+  width: 50%;
+  background: #de4f35;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.thumbs img {
+  color: rgba(0, 0, 0, 0.9);
+  text-decoration: none;
+  font-weight: normal;
+}
+
+.image_one {
+  position: relative;
+}
+
+.image_two {
+  position: absolute;
+  padding: 16px;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=0)";
+  filter: alpha(opacity=0);
+  -webkit-transition: 0.3s ease-in-out;
+  -moz-transition: 0.3s ease-in-out;
+  -o-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  background: white;
+}
+.image_two:hover {
+  opacity: .75;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=.75)";
+  filter: alpha(opacity=0.75);
+  -webkit-transition: 0.3s ease-in-out;
+  -moz-transition: 0.3s ease-in-out;
+  -o-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+.image_two h3 {
+  font-family: "Theinhardt-Light", "Theinhardt-Thin", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 24px;
+  font-size: 1.5rem;
+  line-height: 28.8px;
+  line-height: 1.8rem;
+  font-weight: 200;
+}
+
+.thumb_title {
+  height: 80px;
+  padding: 12px 0 32px 0;
+}
+@media screen and (max-width: 768px) {
+  .thumb_title {
+    height: 60px;
+    padding: 12px 0 0px 0;
+  }
+}
+@media screen and (max-width: 768px) {
+  .thumb_title {
+    height: 60px;
+    padding: 6px 0 12px 0;
+  }
+}
+
+.bio {
+  margin-bottom: 6px;
+}
+
+.bio_wrapper {
+  margin-bottom: 24px;
+}
+
+.fits {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  margin-bottom: 24px;
+}
+
+.otherProjects {
+  padding: 48px 0 12px 0;
+}

@@ -1,0 +1,421 @@
+::selection {
+  background: #de4f35;
+  color: white;
+}
+
+::-moz-selection {
+  background: #de4f35;
+  color: white;
+}
+
+.grey {
+  color: #4a4a4a;
+}
+
+a, a:visited {
+  color: #5b5e61;
+  text-decoration: none;
+  outline: 0;
+  -webkit-transition: 0.3s ease-in-out;
+  -moz-transition: 0.3s ease-in-out;
+  -o-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+a:hover, a:focus, a:active {
+  color: #de4f35;
+}
+
+p a, p a:visited {
+  line-height: inherit;
+}
+
+a:link.red {
+  color: #de4f35;
+  -webkit-transition: 0.3s ease-in-out;
+  -moz-transition: 0.3s ease-in-out;
+  -o-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+a:hover.red {
+  color: #110503;
+}
+
+/**
+ * Just specify font-size, don't override current font.
+ */
+/**
+ * The "normal" weight font, usually weight 400
+ */
+/**
+ * The "bold" weight font, usually weight 700
+ */
+/**
+ * The "light" weight font, usually weight 200
+ */
+/**
+ * The "light" weight font, usually weight 200
+ */
+/**
+ * Helper function to normalize the line-height. Provides an easy way to
+ * handle 'auto' and unspecified lineheight values.
+ */
+/**
+ * Primary helper to get the font bits output correctly
+ */
+h1, h2, h3, h4 {
+  font-family: "Theinhardt-Thin", "Theinhardt-Thin", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 36px;
+  font-size: 2.25rem;
+  line-height: 43.2px;
+  line-height: 2.7rem;
+  font-weight: 100;
+  color: #de4f35;
+  margin: 0 0 0 0;
+}
+
+h2 {
+  color: #4a4a4a;
+}
+
+h3 {
+  color: #4a4a4a;
+  font-family: "Theinhardt-Thin", "Theinhardt-Thin", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 24px;
+  font-size: 1.5rem;
+  line-height: 28.8px;
+  line-height: 1.8rem;
+  font-weight: 100;
+}
+
+
+h3.light {
+  color: #979797;
+}
+
+h4 {
+  font-family: "Theinhardt-Regular", "Theinhardt-Thin", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  font-size: 1.125rem;
+  line-height: 21.6px;
+  line-height: 1.35rem;
+  font-weight: normal;
+  color: rgba(0, 0, 0, 0.9);
+}
+
+h5 {
+  font-family: "Theinhardt-Light", "Theinhardt-Thin", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 21px;
+  font-size: 1.3125rem;
+  line-height: 25.2px;
+  line-height: 1.575rem;
+  font-weight: 200;
+  color: #4a4a4a;
+  line-height: 130%;
+}
+
+h5.light {
+  font-family: "Theinhardt-Light", "Theinhardt-Thin", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 21px;
+  font-size: 1.3125rem;
+  line-height: 25.2px;
+  line-height: 1.575rem;
+  font-weight: 200;
+  color: #979797;
+  line-height: 130%;
+}
+
+.small {
+  font-family: "Theinhardt-Light", "Theinhardt-Thin", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-size: 1rem;
+  line-height: 19.2px;
+  line-height: 1.2rem;
+  font-weight: 200;
+}
+.small a, .small a:visited {
+  color: #de4f35 !important;
+}
+
+.clients p {
+  margin-bottom: 4px;
+  font-family: "Theinhardt-Light", "Theinhardt-Thin", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  font-size: 1.125rem;
+  line-height: 21.6px;
+  line-height: 1.35rem;
+  font-weight: 200;
+  color: #4a4a4a;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  color: #4a4a4a;
+  background: white;
+  text-align: left;
+  font-family: "Theinhardt-Light", "Theinhardt-Thin", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-size: 1rem;
+  line-height: 19.2px;
+  line-height: 1.2rem;
+  font-weight: 200;
+  line-height: 21px;
+  margin: 20px auto 0 auto;
+  width: 1024px;
+  height: 100%;
+}
+
+.header {
+  margin: 48px auto;
+  width: 960px;
+}
+
+.container {
+  position: relative;
+  width: 960px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+nav {
+  float: right;
+  clear: none;
+  margin: 0 8px 0 0;
+  padding: 0 12px;
+  font-family: "Theinhardt-Light", "Theinhardt-Thin", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-size: 1rem;
+  line-height: 19.2px;
+  line-height: 1.2rem;
+  font-weight: 200;
+  color: #4a4a4a;
+  line-height: 44px;
+}
+nav ul {
+  padding: 0;
+  float: right;
+}
+nav ul li {
+  display: inline-block;
+  padding: 0 0 0 24px;
+}
+
+.logo {
+  float: left;
+}
+
+.info {
+  margin-bottom: 32px;
+}
+
+.title {
+  margin-bottom: 8px;
+}
+.title a:link {
+  color: #de4f35;
+}
+.title a:hover {
+  color: #110503;
+}
+.title a:visited {
+  color: #de4f35;
+}
+
+#editpage {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background: #de4f35;
+  padding: 10px;
+  z-index: 9999;
+  color: white !important;
+}
+
+.meta_link {
+  margin-bottom: 0;
+}
+.meta_link a:link {
+  color: #de4f35;
+}
+.meta_link a:hover {
+  color: #110503;
+}
+.meta_link a:visited {
+  color: #de4f35;
+}
+
+.gallery {
+  margin: 32px 1% 24px 1%;
+}
+.gallery img {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 2%;
+}
+
+.tile {
+  display: inline-block !important;
+  position: relative;
+  vertical-align: bottom;
+  margin-bottom: .5%;
+}
+.tile img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 2%;
+  overflow: hidden;
+  display: inline;
+}
+
+
+.related ul li img {
+  width: 100%;
+  height: auto;
+}
+
+.share a, .share a:visited {
+  color: #de4f35;
+  margin-left: 12px;
+}
+
+footer {
+  padding-top: 96px !important;
+  padding-bottom: 48px !important;
+}
+
+.right {
+  text-align: right;
+  float: right;
+}
+
+.spacer {
+  margin-bottom: 10%;
+}
+
+.ruler {
+  margin-bottom: 48px;
+  border-bottom: 1px dotted #cacaca;
+}
+
+.contact {
+  margin-bottom: 12px;
+}
+
+.thumbs {
+  display: block;
+  vertical-align: middle;
+  position: relative;
+  max-height: 400px;
+  overflow: hidden;
+}
+
+.thumbs img {
+  vertical-align: middle;
+  width: 100%;
+}
+
+.project_thumb_left {
+  width: 48%;
+  display: block;
+  position: relative;
+  float: left;
+  padding: 0 12px 36px 0;
+}
+
+.project_thumb_left a {
+  overflow: hidden;
+  display: block;
+  width: 50%;
+  background: #de4f35;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.project_thumb_right {
+  width: 48%;
+  display: block;
+  position: relative;
+  float: left;
+  padding: 0 0 24px 12px;
+}
+
+.project_thumb_right a {
+  overflow: hidden;
+  display: block;
+  width: 50%;
+  background: #de4f35;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.thumbs img {
+  color: rgba(0, 0, 0, 0.9);
+  text-decoration: none;
+  font-weight: normal;
+}
+
+.image_one {
+  position: relative;
+}
+
+.image_two {
+  position: absolute;
+  padding: 16px;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=0)";
+  filter: alpha(opacity=0);
+  -webkit-transition: 0.3s ease-in-out;
+  -moz-transition: 0.3s ease-in-out;
+  -o-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  background: white;
+}
+.image_two:hover {
+  opacity: .75;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=.75)";
+  filter: alpha(opacity=0.75);
+  -webkit-transition: 0.3s ease-in-out;
+  -moz-transition: 0.3s ease-in-out;
+  -o-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+.image_two h3 {
+  font-family: "Theinhardt-Light", "Theinhardt-Thin", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 24px;
+  font-size: 1.5rem;
+  line-height: 28.8px;
+  line-height: 1.8rem;
+  font-weight: 200;
+}
+
+.thumb_title {
+  padding: 18px 0 32px 0;
+}
+
+.bio {
+  margin-bottom: 6px;
+}
+
+.bio_wrapper {
+  margin-bottom: 24px;
+}
+
+.fits {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  margin-bottom: 24px;
+}
+
+.otherProjects {
+  padding: 48px 0 12px 0;
+}

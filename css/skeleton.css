@@ -1,0 +1,288 @@
+/**
+ * SASS/SCSS/Compass Transcription of Skeleton Responsive Grid
+ * originally authored by Dave Gamache. This translation offers
+ * mixins that support fluid and as well as fixed grids to supplement
+ * the work that Dave Gamache has done.
+ * @author Dennis Thompson <http://www.atomicpages.net>
+ * @copyright Copyright (c) 2013 AtomicPages LLC
+ * @license MIT
+ * @version 1.6.2
+ */
+/* BASE GRID
+ * ------------------------------------------------ */
+.container {
+  position: relative;
+  width: 1440px;
+  margin: 0 auto;
+  padding: 0;
+}
+.container .column,
+.container .columns {
+  float: left;
+  display: inline;
+  position: relative;
+}
+.container .column.alpha,
+.container .columns.alpha {
+  margin-left: 0;
+}
+.container .column.omega,
+.container .columns.omega {
+  margin-right: 0;
+}
+
+.row {
+  margin-bottom: 20px;
+}
+
+/* Overrides */
+.container .column,
+.container .columns {
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
+.container .one.column,
+.container .one.columns {
+  width: 6.33333%;
+}
+.container .two.columns {
+  width: 14.66667%;
+}
+.container .three.columns {
+  width: 23%;
+}
+.container .four.columns {
+  width: 31.33333%;
+}
+.container .five.columns {
+  width: 39.66667%;
+}
+.container .six.columns {
+  width: 48%;
+}
+.container .seven.columns {
+  width: 56.33333%;
+}
+.container .eight.columns {
+  width: 64.66667%;
+}
+.container .nine.columns {
+  width: 73%;
+}
+.container .ten.columns {
+  width: 81.33333%;
+}
+.container .eleven.columns {
+  width: 89.66667%;
+}
+.container .twelve.columns {
+  width: 98%;
+}
+.container .columns.one-third {
+  width: 41.77778%;
+}
+.container .columns.two-thirds {
+  width: 85.55556%;
+}
+.container .offset-by-one {
+  padding-left: 8.33333%;
+}
+.container .offset-by-two {
+  padding-left: 16.66667%;
+}
+.container .offset-by-three {
+  padding-left: 25%;
+}
+.container .offset-by-four {
+  padding-left: 33.33333%;
+}
+.container .offset-by-five {
+  padding-left: 41.66667%;
+}
+.container .offset-by-six {
+  padding-left: 50%;
+}
+.container .offset-by-seven {
+  padding-left: 58.33333%;
+}
+.container .offset-by-eight {
+  padding-left: 66.66667%;
+}
+.container .offset-by-nine {
+  padding-left: 75%;
+}
+.container .offset-by-ten {
+  padding-left: 83.33333%;
+}
+.container .offset-by-eleven {
+  padding-left: 91.66667%;
+}
+
+/* DESKTOP HD (LARGE)
+ * ------------------------------------------------ */
+@media only screen and (min-width: 1266px) and (max-width: 1492px) {
+  .container {
+    width: 1266px;
+  }
+  .container .column.alpha, .container .columns.alpha {
+    margin-left: 0;
+    margin-right: 10px;
+  }
+  .container .column.omega, .container .columns.omega {
+    margin-right: 0;
+    margin-left: 10px;
+  }
+
+  .alpha.omega {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+/* DESKTOP (regular)
+ * ------------------------------------------------ */
+@media only screen and (min-width: 1366px) and (max-width: 1265px) {
+  .container {
+    width: 1366px;
+  }
+  .container .column.alpha, .container .columns.alpha {
+    margin-left: 0;
+    margin-right: 10px;
+  }
+  .container .column.omega, .container .columns.omega {
+    margin-right: 0;
+    margin-left: 10px;
+  }
+
+  .alpha.omega {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+/* LAPTOP (small)
+ * ------------------------------------------------ */
+@media only screen and (min-width: 1024px) and (max-width: 1314px) {
+  .container {
+    width: 960px;
+  }
+  .container .column.alpha, .container .columns.alpha {
+    margin-left: 0;
+    margin-right: 10px;
+  }
+  .container .column.omega, .container .columns.omega {
+    margin-right: 0;
+    margin-left: 10px;
+  }
+
+  .alpha.omega {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+/* TABLET (PORTRAIT)
+ * ------------------------------------------------ */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .container {
+    width: 690px;
+  }
+  .container .column.alpha, .container .columns.alpha {
+    margin-left: 0;
+    margin-right: 10px;
+  }
+  .container .column.omega, .container .columns.omega {
+    margin-right: 0;
+    margin-left: 10px;
+  }
+
+  .alpha.omega {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+/*  MOBILE (PORTRAIT)
+ * ------------------------------------------------ */
+@media only screen and (max-width: 479px) {
+  .container {
+    width: 300px;
+  }
+  .container .column,
+  .container .columns {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .container .one.column {
+    width: 300px;
+  }
+  .container .one.columns, .container .two.columns, .container .three.columns, .container .four.columns, .container .five.columns, .container .six.columns, .container .seven.columns, .container .eight.columns, .container .nine.columns, .container .ten.columns, .container .eleven.columns, .container .twelve.columns {
+    width: 300px;
+  }
+  .container .one-third.column {
+    width: 300px;
+  }
+  .container .two-third.column {
+    width: 300px;
+  }
+  .container .offset-by-one, .container .offset-by-two, .container .offset-by-three, .container .offset-by-four, .container .offset-by-five, .container .offset-by-six, .container .offset-by-seven, .container .offset-by-eight, .container .offset-by-nine, .container .offset-by-ten, .container .offset-by-eleven {
+    padding-left: 0;
+  }
+}
+/* MOBILE (LANDSCAPE)
+ * ------------------------------------------------ */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .container {
+    width: 420px;
+  }
+  .container .column,
+  .container .columns {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .container .one.column {
+    width: 420px;
+  }
+  .container .one.columns, .container .two.columns, .container .three.columns, .container .four.columns, .container .five.columns, .container .six.columns, .container .seven.columns, .container .eight.columns, .container .nine.columns, .container .ten.columns, .container .eleven.columns, .container .twelve.columns {
+    width: 420px;
+  }
+  .container .one-third.column {
+    width: 420px;
+  }
+  .container .two-third.column {
+    width: 420px;
+  }
+  .container .offset-by-one, .container .offset-by-two, .container .offset-by-three, .container .offset-by-four, .container .offset-by-five, .container .offset-by-six, .container .offset-by-seven, .container .offset-by-eight, .container .offset-by-nine, .container .offset-by-ten, .container .offset-by-eleven {
+    padding-left: 0;
+  }
+}
+/* CLEARING
+ * ------------------------------------------------ */
+.container:after {
+  content: "\0020";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+.clearfix, .row {
+  zoom: 1;
+}
+.clearfix:before, .clearfix:after, .row:before, .row:after {
+  content: "\0020";
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+.clearfix:after, .row:after {
+  clear: both;
+}
+
+.clear {
+  clear: both;
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
