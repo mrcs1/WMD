@@ -65,14 +65,15 @@ a:hover.red {
  * Primary helper to get the font bits output correctly
  */
 h1, h2, h3, h4 {
-  font-family: "Theinhardt-Thin", "Theinhardt-Thin", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Soleil Light", "Soleil Light", Futura, "Century Gothic", Verdana, sans-serif;
   font-size: 36px;
   font-size: 2.25rem;
-  line-height: 43.2px;
-  line-height: 2.7rem;
+  line-height: 50.4px;
+  line-height: 3.15rem;
   font-weight: 100;
   color: #de4f35;
   margin: 0 0 0 0;
+  letter-spacing: -0.03em;
 }
 
 h2 {
@@ -80,42 +81,42 @@ h2 {
 }
 @media screen and (max-width: 960px) {
   h2 {
-    font-family: "Theinhardt-Thin", "Theinhardt-Thin", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Soleil Light", "Soleil Light", Futura, "Century Gothic", Verdana, sans-serif;
     font-size: 24px;
     font-size: 1.5rem;
-    line-height: 28.8px;
-    line-height: 1.8rem;
+    line-height: 33.6px;
+    line-height: 2.1rem;
     font-weight: 100;
   }
 }
 
 h3 {
   color: #4a4a4a;
-  font-family: "Theinhardt-Thin", "Theinhardt-Thin", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Soleil Light", "Soleil Light", Futura, "Century Gothic", Verdana, sans-serif;
   font-size: 24px;
   font-size: 1.5rem;
-  line-height: 28.8px;
-  line-height: 1.8rem;
+  line-height: 33.6px;
+  line-height: 2.1rem;
   font-weight: 100;
 }
 @media screen and (max-width: 960px) {
   h3 {
-    font-family: "Theinhardt-Light", "Theinhardt-Thin", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Soleil Light", "Soleil Light", Futura, "Century Gothic", Verdana, sans-serif;
     font-size: 18px;
     font-size: 1.125rem;
-    line-height: 21.6px;
-    line-height: 1.35rem;
+    line-height: 25.2px;
+    line-height: 1.575rem;
     font-weight: 200;
     color: #7d7d7d;
   }
 }
 @media screen and (max-width: 400px) {
   h3 {
-    font-family: "Theinhardt-Light", "Theinhardt-Thin", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Soleil Light", "Soleil Light", Futura, "Century Gothic", Verdana, sans-serif;
     font-size: 18px;
     font-size: 1.125rem;
-    line-height: 21.6px;
-    line-height: 1.35rem;
+    line-height: 25.2px;
+    line-height: 1.575rem;
     font-weight: 200;
   }
 }
@@ -125,43 +126,43 @@ h3.light {
 }
 
 h4 {
-  font-family: "Theinhardt-Regular", "Theinhardt-Thin", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Soleil Book", "Soleil Light", Futura, "Century Gothic", Verdana, sans-serif;
   font-size: 18px;
   font-size: 1.125rem;
-  line-height: 21.6px;
-  line-height: 1.35rem;
+  line-height: 25.2px;
+  line-height: 1.575rem;
   font-weight: normal;
   color: rgba(0, 0, 0, 0.9);
 }
 
 h5 {
-  font-family: "Theinhardt-Light", "Theinhardt-Thin", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Soleil Light", "Soleil Light", Futura, "Century Gothic", Verdana, sans-serif;
   font-size: 21px;
   font-size: 1.3125rem;
-  line-height: 25.2px;
-  line-height: 1.575rem;
+  line-height: 29.4px;
+  line-height: 1.8375rem;
   font-weight: 200;
   color: #4a4a4a;
   line-height: 130%;
 }
 
 h5.light {
-  font-family: "Theinhardt-Light", "Theinhardt-Thin", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Soleil Light", "Soleil Light", Futura, "Century Gothic", Verdana, sans-serif;
   font-size: 21px;
   font-size: 1.3125rem;
-  line-height: 25.2px;
-  line-height: 1.575rem;
+  line-height: 29.4px;
+  line-height: 1.8375rem;
   font-weight: 200;
   color: #979797;
   line-height: 130%;
 }
 
 .small {
-  font-family: "Theinhardt-Light", "Theinhardt-Thin", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Soleil Light", "Soleil Light", Futura, "Century Gothic", Verdana, sans-serif;
   font-size: 16px;
   font-size: 1rem;
-  line-height: 19.2px;
-  line-height: 1.2rem;
+  line-height: 22.4px;
+  line-height: 1.4rem;
   font-weight: 200;
 }
 .small a, .small a:visited {
@@ -170,11 +171,11 @@ h5.light {
 
 .clients p {
   margin-bottom: 4px;
-  font-family: "Theinhardt-Light", "Theinhardt-Thin", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Soleil Light", "Soleil Light", Futura, "Century Gothic", Verdana, sans-serif;
   font-size: 18px;
   font-size: 1.125rem;
-  line-height: 21.6px;
-  line-height: 1.35rem;
+  line-height: 25.2px;
+  line-height: 1.575rem;
   font-weight: 200;
   color: #4a4a4a;
 }
@@ -188,11 +189,11 @@ body {
   color: #4a4a4a;
   background: white;
   text-align: left;
-  font-family: "Theinhardt-Light", "Theinhardt-Thin", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Soleil Light", "Soleil Light", Futura, "Century Gothic", Verdana, sans-serif;
   font-size: 16px;
   font-size: 1rem;
-  line-height: 19.2px;
-  line-height: 1.2rem;
+  line-height: 22.4px;
+  line-height: 1.4rem;
   font-weight: 200;
   line-height: 21px;
   margin: 0;
@@ -209,11 +210,11 @@ nav {
   float: right;
   margin: 0;
   padding: 0;
-  font-family: "Theinhardt-Light", "Theinhardt-Thin", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Soleil Light", "Soleil Light", Futura, "Century Gothic", Verdana, sans-serif;
   font-size: 16px;
   font-size: 1rem;
-  line-height: 19.2px;
-  line-height: 1.2rem;
+  line-height: 22.4px;
+  line-height: 1.4rem;
   font-weight: 200;
   color: #4a4a4a;
   line-height: 44px;
@@ -224,15 +225,15 @@ nav ul {
 }
 nav ul li {
   display: inline-block;
-  padding: 0 0 0 24px;
+  padding: 0 0 0 18px;
 }
 nav ul li:first-child {
   display: inline-block;
-/*  padding: 0;*/
+  padding: 0;
 }
 @media screen and (max-width: 480px) {
   nav {
-    width: 53%;
+    width: 72%;
     line-height: 36px;
     margin-top: 6px;
     overflow-wrap: break-word;
@@ -300,7 +301,7 @@ nav ul li:first-child {
   display: inline-block !important;
   position: relative;
   vertical-align: bottom;
-  margin-bottom: .5%;
+  margin-bottom: 1%;
 }
 .tile img {
   width: 100%;
@@ -600,11 +601,11 @@ footer {
   transition: 0.3s ease-in-out;
 }
 .image_two h3 {
-  font-family: "Theinhardt-Light", "Theinhardt-Thin", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Soleil Light", "Soleil Light", Futura, "Century Gothic", Verdana, sans-serif;
   font-size: 24px;
   font-size: 1.5rem;
-  line-height: 28.8px;
-  line-height: 1.8rem;
+  line-height: 33.6px;
+  line-height: 2.1rem;
   font-weight: 200;
 }
 

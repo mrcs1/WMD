@@ -1,9 +1,9 @@
 // Type
-$lineheight-multiplier: 1.2;
+$lineheight-multiplier: 1.4;
 $default-lineheight: -1;
 // Must be the px font-size on your html element for proper rem calculation.
 $base-font-size: 16px;
-$base-font: "Theinhardt-Thin", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$base-font: "Soleil Light", Futura, 'Century Gothic', Verdana, sans-serif;
 
 /**
  * Just specify font-size, don't override current font.
@@ -23,7 +23,7 @@ $base-font: "Theinhardt-Thin", "Helvetica Neue", Helvetica, Arial, sans-serif;
  * The "normal" weight font, usually weight 400
  */
 @mixin font-reg($fontsize, $lineheight: $default-lineheight) {
-  @include _font_setup("Theinhardt-Regular", $fontsize, $lineheight);
+  @include _font_setup("Soleil Book", $fontsize, $lineheight);
   font-weight: normal;
 }
 
@@ -31,7 +31,7 @@ $base-font: "Theinhardt-Thin", "Helvetica Neue", Helvetica, Arial, sans-serif;
  * The "bold" weight font, usually weight 700
  */
 @mixin font-bold($fontsize, $lineheight: $default-lineheight) {
-  @include _font_setup("Theinhardt-Bold", $fontsize, $lineheight);
+  @include _font_setup("Soleil Extra Bold", $fontsize, $lineheight);
   font-weight: bold;
 }
 
@@ -39,7 +39,7 @@ $base-font: "Theinhardt-Thin", "Helvetica Neue", Helvetica, Arial, sans-serif;
  * The "light" weight font, usually weight 200
  */
 @mixin font-light($fontsize, $lineheight: $default-lineheight) {
-  @include _font_setup("Theinhardt-Light", $fontsize, $lineheight);
+  @include _font_setup("Soleil Light", $fontsize, $lineheight);
   font-weight: 200;
 }
 
@@ -47,7 +47,7 @@ $base-font: "Theinhardt-Thin", "Helvetica Neue", Helvetica, Arial, sans-serif;
  * The "light" weight font, usually weight 200
  */
 @mixin font-ultra($fontsize, $lineheight: $default-lineheight) {
-  @include _font_setup("Theinhardt-Thin", $fontsize, $lineheight);
+  @include _font_setup("Soleil Light", $fontsize, $lineheight);
   font-weight: 100;
 }
 

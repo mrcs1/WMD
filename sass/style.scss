@@ -66,6 +66,7 @@ h1, h2, h3, h4 {
 	@include font-ultra(36px);
 	color: $red;
 	margin: 0 0 0 0;
+	letter-spacing: -0.03em;
 
 }
 
@@ -79,7 +80,6 @@ h2 {color: $grey;
 h3 { 
 	color: $grey; 
 	@include font-ultra(24px);
-
 	@media screen and (max-width: 960px) {
 	@include font-light(18px);
 	color: lighten($grey,20%);
@@ -264,7 +264,7 @@ nav {
 	display: inline-block !important;
 	position: relative;
 	vertical-align: bottom;
-	margin-bottom: .5%;
+	margin-bottom: 1%;
 
 		img {
 			width: 100%;
